@@ -1,0 +1,267 @@
+[ 2016-03-17T15:18:13+08:00 ] 127.0.0.1 /Wechat/Server/token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+ERR: 非法操作:token
+
+[ 2016-03-17T15:18:37+08:00 ] 127.0.0.1 /Wechat/Server?token=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0090s ]
+ERR: 1146:Table 'weyz.wechat' doesn't exist
+ [ SQL语句 ] : SELECT * FROM dist_youzan A INNER JOIN Wechat B ON B.yz_id = A.yz_id  WHERE ( yz_token = '123456' ) LIMIT 1  
+ERR: 1146:Table 'weyz.wechat' doesn't exist
+ [ SQL语句 ] : SELECT * FROM dist_youzan A INNER JOIN Wechat B ON B.yz_id = A.yz_id  WHERE ( yz_token = '123456' ) LIMIT 1  
+
+[ 2016-03-17T15:22:30+08:00 ] 127.0.0.1 /Wechat/Server?token=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0080s ]
+ERR: 1146:Table 'weyz.__wechat__' doesn't exist
+ [ SQL语句 ] : SELECT * FROM dist_youzan A INNER JOIN __wechat__ B ON B.yz_id = A.yz_id  WHERE ( yz_token = '123456' ) LIMIT 1  
+ERR: 1146:Table 'weyz.__wechat__' doesn't exist
+ [ SQL语句 ] : SELECT * FROM dist_youzan A INNER JOIN __wechat__ B ON B.yz_id = A.yz_id  WHERE ( yz_token = '123456' ) LIMIT 1  
+
+[ 2016-03-17T15:22:40+08:00 ] 127.0.0.1 /Wechat/Server?token=123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0060s ]
+SQL: SELECT * FROM dist_youzan A INNER JOIN dist_wechat B ON B.yz_id = A.yz_id  WHERE ( yz_token = '123456' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T15:24:09+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T15:24:16+08:00 ] 127.0.0.1 /Wechat/Server/token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+ERR: 非法操作:token
+
+[ 2016-03-17T15:24:19+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T15:25:24+08:00 ] 127.0.0.1 /Wechat/Server
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-17T15:25:52+08:00 ] 127.0.0.1 /Wechat/Server/TOKEN/123123.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+ERR: 非法操作:TOKEN
+
+[ 2016-03-17T15:26:29+08:00 ] 127.0.0.1 /Wechat-Server-TOKEN-123123.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+ERR: 非法操作:TOKEN
+
+[ 2016-03-17T15:26:34+08:00 ] 127.0.0.1 /Wechat-Server?TOKEN-123123.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T15:37:13+08:00 ] 127.0.0.1 /Wechat/Server?token/123123.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T15:37:24+08:00 ] 127.0.0.1 /Wechat/Server?token/123456.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `dist_youzan` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 21 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T15:38:13+08:00 ] 127.0.0.1 /Wechat/Server?token/123456.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 22 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T15:38:15+08:00 ] 127.0.0.1 /Wechat/Server?token/123456.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 22 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-17T15:38:17+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for Org\Util\Wechat::__construct(), called in E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php on line 22 and defined E:\GitHub\wechat_distribution\ThinkPHP\Library\Org\Util\Wechat.class.php 第 237 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-17T15:38:46+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+
+[ 2016-03-17T15:38:46+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+
+[ 2016-03-17T15:38:58+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+
+[ 2016-03-17T15:38:59+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 15 行.
+
+[ 2016-03-17T15:39:20+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+
+[ 2016-03-17T15:39:21+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token E:\GitHub\wechat_distribution\Application\Wechat\Controller\CommonController.class.php 第 14 行.
+

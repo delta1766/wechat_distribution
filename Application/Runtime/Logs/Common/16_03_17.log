@@ -1,0 +1,36 @@
+[ 2016-03-17T15:17:08+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-17T15:24:44+08:00 ] 127.0.0.1 /Wechat/Server?token/123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Wechat/Server
+
+[ 2016-03-17T15:24:53+08:00 ] 127.0.0.1 /Wechat/Server?token%123456
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Wechat/Server
+
+[ 2016-03-17T15:25:10+08:00 ] 127.0.0.1 /Wechat/Server
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Wechat/Server
+
+[ 2016-03-17T15:26:15+08:00 ] 127.0.0.1 /Wechat/Server/TOKEN/123123.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Wechat/Server/TOKEN/123123
+
+[ 2016-03-17T15:37:02+08:00 ] 127.0.0.1 /Wechat-Server?TOKEN-123123.HTML
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Wechat-Server
+
